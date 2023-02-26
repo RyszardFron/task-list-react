@@ -1,0 +1,25 @@
+.section__buttons {
+    padding: 0;
+    color: hsl(180, 100%, 25%);
+    text-align: center;
+}
+
+.buttons {
+    color: hsl(180, 100%, 25%);
+    background: none;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    color: hsl(180, 100%, 40%);
+}
+
+.buttons:disabled {
+    color: hsl(0, 5%, 75%);
+}
+
+.section__addTask {
+    padding: 20px;
+}
