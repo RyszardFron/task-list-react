@@ -6,8 +6,7 @@
  .section__title {
     padding: 20px;
     margin: 0;
-    border-bottom: 1px solid hsl(0, 0%, 87%);
- }
+  }
 
  .section__header {
     display: grid;
