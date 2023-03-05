@@ -23,3 +23,14 @@
 .section__addTask {
     padding: 20px;
 }
+
+@media (max-width: 767px) {
+    .section__buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .buttons {
+        padding: 20px;
+    }
+}

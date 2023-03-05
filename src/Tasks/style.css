@@ -52,3 +52,10 @@
  .tasks__button--remove:hover {
     background: hsl(0, 72%, 68%);
  }
+
+ @media (max-width: 767px) {
+   .section__listTasks {
+      grid-template-columns: 1fr;
+   }
+
+}

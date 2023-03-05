@@ -12,6 +12,7 @@
  .addNewTask__button {
     color: hsl(0, 0%, 100%);
     background-color: hsl(180, 100%, 25%);
+    padding: 10px;
     border: none;
     transition: 1s;
     cursor: pointer;
@@ -21,3 +22,9 @@
     background: hsl(180, 100%, 35%);
      transform: scale(1.1);
  }
+
+ @media (max-width: 767px) {
+   .addNewTask__form {
+      grid-template-columns: 1fr;
+      }
+}
