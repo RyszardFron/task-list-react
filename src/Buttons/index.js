@@ -5,9 +5,9 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
         {tasks.length > 0 && (
             <>
                 <button className="buttons__button">
-                    {hideDoneTasks 
-                    ? "Pokaż ukończone" 
-                    : "Ukryj ukończone"}
+                    {hideDoneTasks
+                        ? "Pokaż ukończone"
+                        : "Ukryj ukończone"}
                 </button>
                 <button className="buttons__button"
                     disabled={tasks.every(({ done }) => done)}>
@@ -18,4 +18,4 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
     </div >
 );
 
-        export default Buttons;
+export default Buttons;

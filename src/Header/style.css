@@ -1,10 +1,10 @@
 @media (max-width: 767px) {
-    .addNewTask__form {
-       grid-template-columns: 1fr;
-    }
- 
-    .section__header {
-       display: grid;
-       grid-template-columns: 1fr;
-    }
+   .addNewTask__form {
+      grid-template-columns: 1fr;
+   }
+
+   .section__header {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
 }

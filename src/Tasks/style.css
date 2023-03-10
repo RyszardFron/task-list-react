@@ -1,59 +1,59 @@
 .tasksList {
-    list-style: none;
-    margin: 0;
-    padding: 0;
- }
- 
- .tasksList__item {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-gap: 10px;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid hsl(0, 0%, 87%);
- }
- 
- .taskList__itemsText {
-    word-break: break-word;
- }
- 
- .taskList__item--done {
-    text-decoration: line-through;
- }
- 
- .task__item--hide {
-    display: none;
- }
- 
- .tasks__button--toggleDone {
-    background: hsl(120, 72%, 44%);
-    color: hsl(0, 0%, 100%);
-    border: none;
-    width: 25px;
-    height: 25px;
-    transition: 0.5s;
-    cursor: pointer;
- }
- 
- .tasks__button--toggleDone:hover {
-    background: hsl(120, 72%, 50%)
- }
- 
- .tasks__button--remove {
-    background: hsl(0, 81%, 58%);
-    color: hsl(0, 0%, 100%);
-    border: none;
-    width: 25px;
-    height: 25px;
-    transition: 0.5s;
-    cursor: pointer;
- }
- 
- .tasks__button--remove:hover {
-    background: hsl(0, 72%, 68%);
- }
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
 
- @media (max-width: 767px) {
+.tasksList__item {
+   display: grid;
+   grid-template-columns: auto 1fr auto;
+   grid-gap: 10px;
+   align-items: center;
+   padding: 10px;
+   border-bottom: 1px solid hsl(0, 0%, 87%);
+}
+
+.taskList__itemsText {
+   word-break: break-word;
+}
+
+.taskList__item--done {
+   text-decoration: line-through;
+}
+
+.task__item--hide {
+   display: none;
+}
+
+.tasks__button--toggleDone {
+   background: hsl(120, 72%, 44%);
+   color: hsl(0, 0%, 100%);
+   border: none;
+   width: 25px;
+   height: 25px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.tasks__button--toggleDone:hover {
+   background: hsl(120, 72%, 50%)
+}
+
+.tasks__button--remove {
+   background: hsl(0, 81%, 58%);
+   color: hsl(0, 0%, 100%);
+   border: none;
+   width: 25px;
+   height: 25px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.tasks__button--remove:hover {
+   background: hsl(0, 72%, 68%);
+}
+
+@media (max-width: 767px) {
    .section__listTasks {
       grid-template-columns: 1fr;
    }
