@@ -1,4 +1,4 @@
-.addNewTask__form {
+.addNewTask {
    display: grid;
    grid-template-columns: 1fr auto;
    grid-gap: 20px;
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 767px) {
-   .addNewTask__form {
+   .addNewTask {
       grid-template-columns: 1fr;
    }
 }
