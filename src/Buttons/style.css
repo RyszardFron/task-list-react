@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-.buttons {
+.buttons__button {
     color: hsl(180, 100%, 25%);
     background: none;
     border: none;
@@ -12,11 +12,11 @@
     cursor: pointer;
 }
 
-.buttons:hover {
+.buttons__button:hover {
     color: hsl(180, 100%, 40%);
 }
 
-.buttons:disabled {
+.buttons__button:disabled {
     color: hsl(0, 5%, 75%);
 }
 
@@ -30,7 +30,7 @@
         grid-template-columns: 1fr;
     }
 
-    .buttons {
+    .buttons__button {
         padding: 20px;
     }
 }
