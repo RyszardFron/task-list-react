@@ -13,6 +13,9 @@ Project is created with:
 * Grid
 * React
 
+# Screenshots
+![page screenshot](https://github.com/RyszardFron/task-list-react/blob/4bd481b205c59631af67492e1cede3ac7af83122/task_list_react.png)
+
 # Link
 https://ryszardfron.github.io/task-list-react/
 
